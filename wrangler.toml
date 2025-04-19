@@ -12,3 +12,6 @@ binding = "ASSETS"
 binding = "DB"
 database_name = "hyperconnect_db"
 database_id = "local"
+
+[build.environment]
+NODE_VERSION = "20"
