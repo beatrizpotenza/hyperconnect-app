@@ -14,7 +14,7 @@ database_name = "hyperconnect_db"
 database_id = "local"
 
 [build]
-command = "npm run build"
+command = "pnpm run build && npx open-next build"
 
 [build.environment]
 NODE_VERSION = "20"
