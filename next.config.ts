@@ -1,13 +1,13 @@
-import { NextConfig } from 'next'
+import { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  eslint: {
-    ignoreDuringBuilds: true,
+const config: NextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  // Explicitly tell Next.js to use the src directory
+  experimental: {
+    appDir: true,
   },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-}
+};
 
-export default nextConfig
+export default config;
+
