@@ -20,4 +20,4 @@ command = "npm run build"
 NODE_VERSION = "20"
 
 [vars]
-pages_build_output_dir = ".next"
+pages_build_output_dir = ".open-next/assets"
