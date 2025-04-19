@@ -13,5 +13,11 @@ binding = "DB"
 database_name = "hyperconnect_db"
 database_id = "local"
 
+[build]
+command = "npm run build"
+
 [build.environment]
 NODE_VERSION = "20"
+
+[vars]
+pages_build_output_dir = ".next"
